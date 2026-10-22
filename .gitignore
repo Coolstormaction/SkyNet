@@ -1,0 +1,43 @@
+
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Eclipse
+*.launch
+.settings/
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+bin/
+
+# macOS
+.DS_Store
+
+# Fabric / Minecraft development
+run/
+
+# SkyNet local configuration and API keys
+config/skynet.json
+.env
+.env.*
+!.env.example
+
+# Java crash dumps and recordings
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# Logs
+*.log
