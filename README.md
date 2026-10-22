@@ -51,15 +51,131 @@ This means you control your own API access rather than depending on a shared key
 
 Your API usage is subject to Google's applicable API terms, quotas, and pricing. Keep your API key private and never commit it to GitHub.
 
-## 🚀 Getting Started
 
-1. Install the required Minecraft and Fabric versions.
-2. Install SkyNet and launch Minecraft.
-3. Run `/setapikey` to configure your Gemini API key.
-4. Run `/skn` to open the SkyNet chat.
-5. Ask away!
+# 🚀 GET STARTED — COMPLETE INSTALLATION GUIDE
+
+New to SkyNet? Follow these steps to get your own AI-powered Hypixel SkyBlock assistant running in minutes!
+
+> [!WARNING]
+> **⚠️ MANUAL INSTALLATION ONLY — NOT AVAILABLE ON MODRINTH OR OTHER MOD DISTRIBUTION PLATFORMS**
+>
+> SkyNet is currently distributed exclusively through GitHub Releases. You must download and install the mod manually.
 
 ---
+
+## 📦 STEP 1 — DOWNLOAD SKYNET
+
+1. Scroll down to the **Assets** section at the bottom of this release.
+2. Download **`skynet-1.0.0.jar`**.
+3. **Do not download `skynet-1.0.0-sources.jar`** — that file contains source code, not the mod you need to install.
+
+## 🛠️ STEP 2 — INSTALL THE MOD
+
+Make sure you have the following installed:
+
+- **Minecraft:** `26.1.2`
+- **Fabric Loader:** `0.19.5`
+- **Fabric API:** `0.155.3+26.1.2`
+
+1. Open your Minecraft game directory.
+2. Find the `mods` folder. If it doesn't exist, create it.
+3. Move `skynet-1.0.0.jar` into the `mods` folder.
+4. Launch Minecraft using your compatible Fabric installation.
+
+## 🔑 STEP 3 — GET YOUR GEMINI API KEY
+
+SkyNet uses a **Bring Your Own Key (BYOK)** system. You provide your own Gemini API key to power the chatbot.
+
+1. Visit the official Google AI Studio API key page:
+
+   **[👉 Generate your Gemini API key here](https://aistudio.google.com/api-keys)**
+
+2. Sign in to your Google account if prompted.
+3. Follow the instructions to create an API key.
+4. Copy your key and keep it private.
+
+> [!CAUTION]
+> **Never share your API key or upload it to GitHub.** Treat it like a password. Your API usage is subject to Google's applicable terms, quotas, and pricing.
+
+## ⌨️ STEP 4 — CONFIGURE SKYNET IN-GAME
+
+**IMPORTANT: Run `/setapikey` FIRST, before `/skn`.**
+
+1. Launch Minecraft and open the in-game chat.
+2. Enter the following command:
+
+   ```text
+   /setapikey
+   ```
+
+3. Press Enter to open the SkyNet API key setup screen.
+4. Paste your Gemini API key into the input field.
+5. Save your key.
+
+SkyNet stores your API key locally in its configuration file. Never share that file with anyone.
+
+## ☁️ STEP 5 — OPEN SKYNET!
+
+Now that your API key is configured, open the in-game chat and run:
+
+```text
+/skn
+```
+
+The SkyNet chat interface should open!
+
+Ask questions about Hypixel SkyBlock, get help understanding unfamiliar mechanics, and spend less time switching between Minecraft and the Wiki.
+
+---
+
+## ❓ TROUBLESHOOTING
+
+<details>
+<summary><strong>❌ SkyNet says no API key is configured</strong></summary>
+
+Run `/setapikey` first and save a valid API key before opening SkyNet with `/skn`.
+
+</details>
+
+<details>
+<summary><strong>⚠️ The chatbot cannot get a response</strong></summary>
+
+- Check your internet connection.
+- Verify that your Gemini API key is valid.
+- Check whether your Google AI Studio project has available API quota.
+- Check Google's current API availability and usage limits.
+
+</details>
+
+<details>
+<summary><strong>🛠️ The mod doesn't load</strong></summary>
+
+- Verify your Minecraft version.
+- Verify your Fabric Loader and Fabric API installations.
+- Make sure you're launching the correct Minecraft profile.
+- Ensure you downloaded `skynet-1.0.0.jar`, not the sources JAR.
+
+</details>
+
+<details>
+<summary><strong>🐛 Still having problems?</strong></summary>
+
+Open an issue in the [SkyNet GitHub repository](https://github.com/Coolstormaction/SkyNet) and include a description of the problem and any relevant error messages.
+
+**Never include your API key in an issue, screenshot, or publicly shared log.**
+
+</details>
+
+---
+
+<p align="center">
+  ☁️ <strong>You're all set!</strong>
+  <br>
+  Less tab-switching. Less confusion. More SkyBlock.
+  <br>
+  <em>Welcome to SkyNet.</em>
+</p>
+
 
 <p align="center">
   <b>Made for SkyBlock players who would rather play the game than spend half their session searching for answers.</b>
