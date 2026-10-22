@@ -168,14 +168,6 @@ Open an issue in the [SkyNet GitHub repository](https://github.com/Coolstormacti
 
 ---
 
-<p align="center">
-  ☁️ <strong>You're all set!</strong>
-  <br>
-  Less tab-switching. Less confusion. More SkyBlock.
-  <br>
-  <em>Welcome to SkyNet.</em>
-</p>
-
 
 <p align="center">
   <b>Made for SkyBlock players who would rather play the game than spend half their session searching for answers.</b>
